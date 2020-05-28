@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Store Locator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+<script src="js/store-data.js"></script>
+</head>
+
+<body>
+    <div class="title">Store Locator</div>
+    <div class="search-container">
+        <div class="search">
+            <input type="text" placeholder="Enter ZIP">
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+    <div class="store-list-container">
+        <div class="store-list">
+         <div class="store-container">
+                <div class="store-info-container">
+                    <div class="store-address">
+                        <span style="display: block;">Kathmandu Nepal,</span>
+                        <span>Kageshori -5</span>
+                    </div>
+                    <div class="phone-number">+977-9817072331</div>
+                </div>
+
+                <div class="store-number-container">
+                    <div class="number">1</div>
+                </div>
+            </div>
+       
+        </div>
+    </div>
+    <div id="map"></div>
+    <script src="js/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh15L6ZQVrZVsMjwAhb_3-X6bbgpSGtQk&callback=initMap"
+        async defer></script>
+</body>
+
+</html>
